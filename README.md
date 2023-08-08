@@ -1,2 +1,10 @@
-# oci_idcs_audit_report
+# OCI IDCS Audit Reports and Alerts  
 This project will use the IDCS Python SDK to run various audit reports
+
+
+
+## Required Python Installs
+Within this directory run the following to install the required libraries
+```
+pip install -r requirements.txt
+```

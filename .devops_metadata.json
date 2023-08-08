@@ -1,0 +1,8 @@
+{
+ "include-file-suffix": "*.zip",
+ "publish-mode": "binary",
+ "min-data-center-version": "19.3.3",
+ "data-center-include-list": "*",
+ "data-center-exclude-list": "cncom-central-1 cncom-central-1.oraclecloud",
+ "manual-intervention": "false"
+}

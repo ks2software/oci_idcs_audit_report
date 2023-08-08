@@ -1,0 +1,10 @@
+{
+  "displayName":"Identity Cloud Service SDK for Python",
+  "description":"Use this SDK to develop web-based Python applications.",
+  "fileType":"idcs-python-sdk",
+  "fileName":"python-23.2.92-2301160723.zip",
+  "fileVersion":"23.2.92-2301160723",
+  "category":"idcs-sdk",
+  "isAdminOnly":true,
+  "isPublic":false
+}
