@@ -3,8 +3,8 @@ import base64
 import requests
 import time
 import jwt
-from six.moves.urllib.parse import urlparse
-from six.moves import urllib
+from urllib.parse import urlparse
+import urllib
 import six
 from Constants import Constants
 import logging
