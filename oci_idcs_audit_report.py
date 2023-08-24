@@ -6,23 +6,24 @@ import json
 # Created 8/8/2023 
 CONFIG_FILE = 'tenancy.json'
 
-def loadconfig(config_file):
-    #load the file
+# Load the tenancy information from the CONFIG_FILE
+def load_config(config_file):
     with open(config_file) as f:
         config_file = f.read().strip()
-    # read the options from the file
     options = json.loads(config_file)
     return options 
 
-def retrieveAccessToken(options):
-    pass 
+# Function to retrieve a new token 
+def retrieve_access_token(options):
+    access_token_manager = AccessTokenManager(options)
+    token = access_token_manager.getAccessToken()
+    return token
 
 def main():
-    #Call to load the configuration file
-    options = loadconfig(CONFIG_FILE)
-
+    options = load_config(CONFIG_FILE)
     print(options)
-    # Use the AccessTokenManager to get a new token 
+    token = retrieve_access_token(options)
+    print(token)
 
 
 
